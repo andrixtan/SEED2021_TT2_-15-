@@ -31,7 +31,6 @@ loginButton.addEventListener("click", (e) => {
 //     return e;
 //   });
 
-
 function Calling() {
     var myHeaders = new Headers();
     myHeaders.append("x-api-key", "UvNtOZVEB61nTaqAj9x9640XEK81qnHN7fSrEOMF");
@@ -52,6 +51,7 @@ function Calling() {
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
+
 }
 // function Calling() {
 // 	fetch('https://u8fpqfk2d4.execute-api.ap-southeast-1.amazonaws.com/techtrek2020/accounts/view')

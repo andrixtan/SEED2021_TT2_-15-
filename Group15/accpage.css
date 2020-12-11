@@ -35,7 +35,7 @@ h1 {
   font-size: 20px;
 }
 
-.transfer {
+#transfer {
   position: flex;
   margin-top: 20px;
   bottom: 5%;
@@ -45,5 +45,13 @@ h1 {
   padding: 15px 20px;
   font-size: 30px;
   margin-top: 30px;
+  font-weight: bold;
+}
+
+#logoutbtn {
+  padding: 15px 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
   font-weight: bold;
 }
