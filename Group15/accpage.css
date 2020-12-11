@@ -47,3 +47,11 @@ h1 {
   margin-top: 30px;
   font-weight: bold;
 }
+
+#logoutbtn {
+  padding: 15px 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  font-weight: bold;
+}
