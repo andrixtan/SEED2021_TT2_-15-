@@ -1,6 +1,7 @@
 button {
   background-color: white;
   width: 100%;
+  font-size: 40px;
   color: black;
   padding: 15px;
   margin: 10px 0px;
@@ -14,10 +15,12 @@ input[type="text"],
 input[type="password"] {
   width: 100%;
   margin: 8px 0;
-  padding: 12px 20px;
+  padding: 20px 20px;
   display: inline-block;
   border: 2px solid black;
   box-sizing: border-box;
+  font-weight: bold;
+  font-size: 25px;
 }
 button:hover {
   opacity: 0.7;
@@ -31,4 +34,6 @@ button:hover {
 .container {
   padding: 25px;
   background-color: rgb(219, 236, 240);
+  font-size: 30px;
+  font-weight: bold;
 }
