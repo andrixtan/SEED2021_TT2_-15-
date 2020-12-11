@@ -5,7 +5,8 @@ body {
 
 .amountbox {
   height: 30px;
-  margin: 5px;
+  margin: 10px;
+  font-size: 25px;
 }
 
 p {
@@ -20,7 +21,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 img {
@@ -48,10 +49,16 @@ h1 {
 
 #back {
   position: absolute;
-  bottom: 430px;
+  bottom: 350px;
   left: 40px;
 }
 
 #backbtn {
-  padding: 20px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.selection {
+  padding: 30px;
+  font-size: 40px;
 }
