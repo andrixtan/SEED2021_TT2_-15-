@@ -6,6 +6,7 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 loginButton.addEventListener("click", (e) => {
   e.preventDefault();
   Calling();
+  window.location.href = "accpage.html";
 });
 
 function Calling() {
