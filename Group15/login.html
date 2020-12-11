@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="login.css" rel="stylesheet" />
 
-    <title>Document</title>
+    <title>TechTrek Login</title>
   </head>
   <body>
     <h1>Login page</h1>
-    <form id="your-name">
-      <p class="first">Enter username and password :)</p>
 
-      <input type="text" placeholder="Username" />
-      <input type="number" placeholder="Password" />
-      <button>OK!</button>
-
+    <form>
+      <div class="container">
+        <label>Username : </label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+        <label>Password : </label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+        <button type="submit">Login</button>
+      </div>
+    </form>
   </body>
   <script src="login.css"></script>
 </html>
