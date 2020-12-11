@@ -10,13 +10,18 @@
   <body>
     <h1 style="text-align: center">DBS TechTrek Login page</h1>
 
-    <form>
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+
+    <form id="login-form">
       <div class="container">
         <label>Username : </label>
         <input
           type="text"
           placeholder="Enter Username"
           name="username"
+          id="username-field"
           required
         />
         <label>Password : </label>
@@ -24,9 +29,10 @@
           type="password"
           placeholder="Enter Password"
           name="password"
+          id="password-field"
           required
         />
-        <button type="submit" id='button'>Login</button>
+        <button type="submit" value='Login' id='login-form-submit'>Login</button>
       </div>
     </form>
   </body>
